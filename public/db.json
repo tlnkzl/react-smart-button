@@ -1,0 +1,25 @@
+{
+  "buttons": [
+    {
+      "id": 1,
+      "label": "Save",
+      "background": "#FFF",
+      "color": "#336688",
+      "icon": "save"
+    },
+    {
+      "id": 2,
+      "label": "Edit",
+      "background": "#FFF",
+      "color": "#336688",
+      "icon": "edit"
+    },
+    {
+      "id": 3,
+      "label": "Send",
+      "background": "#FFF",
+      "color": "#336688",
+      "icon": "send"
+    }
+  ]
+}
