@@ -3,6 +3,8 @@ import axios from 'axios';
 import SmartButton from '../components/SmartButton';
 import './page.css';
 
+import 'dotenv/config';
+
 export default function Page() {
   const [status, setStatus] = useState('');
   const [smartButtons, setSmartButtons] = useState([]);
@@ -35,7 +37,7 @@ export default function Page() {
 
   async function getCurrentWeather(url){
     try {
-      let result = await axios.get(url);
+      let result = await axios.get(url + process.env.REACT_APP_WEATHER_API_KEY);
       if(!result || !result.data || !result.data.main){
         return null;
       }

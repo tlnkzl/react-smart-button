@@ -7,7 +7,7 @@
       "color": "#FFFFFF",
       "icon": "cloud",
       "enabled": true,
-      "action":"https://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid="
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "color": "#FFFFFF",
       "icon": "nights_stay",
       "enabled": true,
-      "action":"https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid="
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "color": "#FFFFFF",
       "icon": "filter_drama",
       "enabled": true,
-      "action":"https://api.openweathermap.org/data/2.5/weather?q=Istanbul&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=Istanbul&units=metric&appid="
     },
     {
       "id": 4,
