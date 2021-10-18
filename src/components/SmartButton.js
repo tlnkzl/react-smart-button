@@ -25,7 +25,7 @@ const SmartButton = ({ onPress, data }) => {
   };
 
   return (
-    <button style={styles.button} onClick={onPress}>
+    <button disabled={!data.enabled} style={styles.button} onClick={onPress}>
       <span className="material-icons" style={styles.icon}>
         {data.icon}
       </span>

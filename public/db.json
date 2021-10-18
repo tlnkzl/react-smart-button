@@ -3,23 +3,34 @@
     {
       "id": 1,
       "label": "Save",
-      "background": "#FFF",
-      "color": "#336688",
-      "icon": "save"
+      "color": "#FFFFFF",
+      "background": "#997788",
+      "icon": "save",
+      "enabled": true
     },
     {
       "id": 2,
       "label": "Edit",
-      "background": "#FFF",
-      "color": "#336688",
-      "icon": "edit"
+      "color": "#FFFFFF",
+      "background": "#336688",
+      "icon": "edit",
+      "enabled": true
     },
     {
       "id": 3,
       "label": "Send",
-      "background": "#FFF",
-      "color": "#336688",
-      "icon": "send"
+      "color": "#FFFFFF",
+      "background": "#112244",
+      "icon": "send",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "label": "Disabled",
+      "color": "#FFFFFF",
+      "background": "#114455",
+      "icon": "close",
+      "enabled": false
     }
   ]
 }

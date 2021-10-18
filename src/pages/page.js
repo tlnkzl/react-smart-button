@@ -1,19 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import SmartButton from '../components/SmartButton';
-
-const getData = async () => {
-  return await axios
-    .get('./db.json')
-    .then((response) => {
-      const results = response.data;
-      console.log(results);
-      return results.buttons;
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-};
+import './page.css';
 
 export default function Page() {
   const [smartButtons, setSmartButtons] = useState([]);
@@ -45,8 +33,8 @@ export default function Page() {
   }
 
   return (
-    <div>
-      <h2> Smart Button </h2>
+    <div className="container">
+      <h2> Smart Button List </h2>
       {smartButtons.map((item, index) => (
         <SmartButton
           key={index}

@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-color: #5465;
-  color: white;
   font-size: calc(10px + 2vmin);
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #FFF;
 }
