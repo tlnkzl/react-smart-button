@@ -10,4 +10,7 @@
   min-width: 50vh;
   align-self: center;
   margin: 100px;
+  background-image: url("../assets/blue-arc.jpg");
+  background-size: cover;
+  color: #334477;
 }

@@ -2,35 +2,40 @@
   "buttons": [
     {
       "id": 1,
-      "label": "Save",
+      "label": "Toronto",
+      "background": "#423654",
       "color": "#FFFFFF",
-      "background": "#997788",
-      "icon": "save",
-      "enabled": true
+      "icon": "cloud",
+      "enabled": true,
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
     },
     {
       "id": 2,
-      "label": "Edit",
+      "label": "London",
+      "background": "#E48D9F",
       "color": "#FFFFFF",
-      "background": "#336688",
-      "icon": "edit",
-      "enabled": true
+      "icon": "nights_stay",
+      "enabled": true,
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
     },
     {
       "id": 3,
-      "label": "Send",
+      "label": "Istanbul",
+      "background": "#6152C8",
       "color": "#FFFFFF",
-      "background": "#112244",
-      "icon": "send",
-      "enabled": true
+      "icon": "filter_drama",
+      "enabled": true,
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=Istanbul&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
     },
     {
       "id": 4,
-      "label": "Disabled",
+      "label": "Tokyo",
+      "background": "#334488",
       "color": "#FFFFFF",
-      "background": "#114455",
-      "icon": "close",
-      "enabled": false
+      "icon": "bolt",
+      "enabled": false,
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=Tokyo&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
     }
+
   ]
 }
