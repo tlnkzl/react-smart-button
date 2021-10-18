@@ -34,7 +34,7 @@
       "color": "#FFFFFF",
       "icon": "bolt",
       "enabled": false,
-      "action":"https://api.openweathermap.org/data/2.5/weather?q=Tokyo&units=metric&appid=54c0c65a5d9d2cdeab312df954cae171"
+      "action":"https://api.openweathermap.org/data/2.5/weather?q=Tokyo&units=metric&appid="
     }
 
   ]
