@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import SmartButton from "../components/SmartButton";
+import SmartButton from "../components/SmartButton/SmartButton";
 import "./page.css";
 
 export default function Page() {
